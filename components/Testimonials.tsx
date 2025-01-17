@@ -30,7 +30,7 @@ const Testimonials = () => {
                 {avatars.map((avatar, index) => (
                     <div className="relative flex flex-col items-center" key={index}>
                         <Avatar
-                            className='size-8 ring-red-600 ring-0 ring-offset-0 hover:ring-offset-4 ring-offset-black hover:ring-1 duration-200 transition-all'
+                            className='size-8 ring-red-600 ring-0 ring-offset-0 hover:ring-offset-4 ring-offset-black hover:ring-1 duration-300 transition-all'
                             onMouseEnter={() => setHoveredIndex(index)}
                             onMouseLeave={() => setHoveredIndex(null)}
                         >
