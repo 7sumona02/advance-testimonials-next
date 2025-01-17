@@ -13,13 +13,13 @@ const Testimonials = () => {
     const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
     const avatars = [
-        { name: "FYODOR DOSTOEVSKY", src: "https://github.com/shadcn.png" },
-        { name: "Neon", src: "https://github.com/shadcn.png" },
+        { name: "FYODOR", src: "https://github.com/shadcn.png" },
+        { name: "NIKOLAI", src: "https://github.com/shadcn.png" },
         // Add more avatars as needed
-        { name: "User 3", src: "https://github.com/shadcn.png" },
-        { name: "User 4", src: "https://github.com/shadcn.png" },
-        { name: "User 5", src: "https://github.com/shadcn.png" },
-        { name: "User 6", src: "https://github.com/shadcn.png" },
+        { name: "DAZAI", src: "https://github.com/shadcn.png" },
+        { name: "RON", src: "https://github.com/shadcn.png" },
+        { name: "KUDO", src: "https://github.com/shadcn.png" },
+        { name: "RANPO", src: "https://github.com/shadcn.png" },
     ];
 
     return (
