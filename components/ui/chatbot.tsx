@@ -59,13 +59,13 @@ interface ChatBotProps {
 }
 
 
-import { ReactTimeagoProps } from 'react-timeago'; // Ensure this import is correct based on your project structure
+// import { ReactTimeagoProps } from 'react-timeago'; // Ensure this import is correct based on your project structure
 
-// Define a generic type for the props
-const ClientTimeAgo = dynamic<ReactTimeagoProps<'time'>>(() => import('react-timeago'), {
-  ssr: false,
-  loading: () => <p>Loading...</p>, // Optional loading state
-});
+// // Define a generic type for the props
+// const ClientTimeAgo = dynamic<ReactTimeagoProps<'time'>>(() => import('react-timeago'), {
+//   ssr: false,
+//   loading: () => <p>Loading...</p>, // Optional loading state
+// });
 
 
 
@@ -446,7 +446,7 @@ export default function ChatBot({
                         )}
                       </div>
                     </div>
-                    {showTimestamp &&
+                    {/* {showTimestamp &&
                       index === chatMessages.length - 1 &&
                       message.role === "assistant" && (
                         <div className="text-xs text-muted-foreground mt-1 text-left ml-11 mb-4">
@@ -464,7 +464,7 @@ export default function ChatBot({
                           />
                           .
                         </div>
-                      )}
+                      )} */}
                   </div>
                 ))}
                 <div ref={scrollRef} />
